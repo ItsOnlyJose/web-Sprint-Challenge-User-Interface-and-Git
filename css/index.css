@@ -174,42 +174,44 @@ header > div {
     margin-bottom: 2vh;
 }
 
+/* I believe I have to target the Div Boxes like this due to the specificity rules. Using class names + nth Child selector is more specific */
+
 .middle-content .boxes .box:nth-child(1) {
-     background: lightblue;
+     background: teal;
  }
 
  .middle-content .boxes .box:nth-child(2) {
-    background: lightblue;
+    background: gold;
 }
 
 .middle-content .boxes .box:nth-child(3) {
-    background: lightblue;
+    background: cadetblue;
 }
 
 .middle-content .boxes .box:nth-child(4) {
-    background: lightblue;
+    background: coral;
 }
 
 .middle-content .boxes .box:nth-child(5) {
-    background: lightblue;
+    background: crimson;
 }
 
 .middle-content .boxes .box:nth-child(6) {
-    background: lightblue;
+    background: forestgreen;
 }
 
 .middle-content .boxes .box:nth-child(7) {
-    background: lightblue;
+    background: darkorchid;
 }
 
 .middle-content .boxes .box:nth-child(8) {
-    background: lightblue;
+    background: hotpink;
 }
 
 .middle-content .boxes .box:nth-child(9) {
-    background: lightblue;
+    background: indigo;
 }
 
 .middle-content .boxes .box:nth-child(10) {
-    background: lightblue;
+    background: dodgerblue;
 }
