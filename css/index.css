@@ -234,3 +234,33 @@ header > div {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+.about-middle-content {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info-container{
+    border-bottom: 1px dashed black;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+
+.info-container h2 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 0;
+}
+
+.info-container p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 0;
+}
+
+.info-container a {
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 0;
+}
