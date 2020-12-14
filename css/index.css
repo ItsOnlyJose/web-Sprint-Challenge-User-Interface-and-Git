@@ -135,7 +135,7 @@ footer nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     padding: 20px 2%;
     font-size: 14px;
 }
@@ -143,4 +143,148 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    align-items: flex-end;
+    height: 5vh;
+    margin-bottom: 2vh;
+}
+
+header nav a {
+    margin-right: auto;
+    text-decoration: none;
+    color: black;
+}
+
+header nav div {
+    margin-right: auto;
+}
+
+header > div {
+    margin-bottom: 2vh;
+}
+
+/* I believe I have to target the Div Boxes like this due to the specificity rules. Using class names + nth Child selector is more specific */
+
+.middle-content .boxes .box:nth-child(1) {
+     background: teal;
+ }
+
+ .middle-content .boxes .box:nth-child(2) {
+    background: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background: dodgerblue;
+}
+
+.container .about-page{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.about-top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-top-content .text-container {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.about-middle-content {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.info-container{
+    border-bottom: 1px dashed black;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+
+.info-container h2 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 0;
+}
+
+.info-container p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 0;
+}
+
+.info-container a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.info-container div {
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 0;
+    width: 125px;
+    border: 2px black solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.about-bottom-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    margin-top: 45px;
+}
+
+.about-bottom-content .text-container {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
 }
