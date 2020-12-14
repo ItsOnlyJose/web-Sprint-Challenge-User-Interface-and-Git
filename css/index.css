@@ -236,7 +236,7 @@ header > div {
 }
 
 .about-middle-content {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     display: flex;
 }
 
@@ -258,9 +258,36 @@ header > div {
     margin-left: 0;
 }
 
-.info-container a {
-    padding: 10px;
-    margin-bottom: 10px;
+/* .info-container a {
+    padding: 5px 20px;
+    margin-bottom: 40px;
     margin-top: 10px;
     margin-left: 0;
+    border: 2px black solid;
+    border-radius: 10px;
+} */
+
+.info-container div {
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 0;
+    width: 125px;
+    border: 2px black solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.about-bottom-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    margin-top: 45px;
+}
+
+.about-bottom-content .text-container {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
 }
