@@ -258,14 +258,11 @@ header > div {
     margin-left: 0;
 }
 
-/* .info-container a {
-    padding: 5px 20px;
-    margin-bottom: 40px;
-    margin-top: 10px;
-    margin-left: 0;
-    border: 2px black solid;
-    border-radius: 10px;
-} */
+.info-container a {
+    text-decoration: none;
+    color: black;
+}
+
 
 .info-container div {
     padding: 10px 15px;
